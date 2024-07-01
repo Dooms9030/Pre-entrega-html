@@ -1,0 +1,89 @@
+#Capablanca{
+    border-radius: 50px;
+    background-color: beige;
+    margin: 35px;
+    img{width: 300px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        margin: 30px;
+        }
+    h1 { text-align: center;
+        color: blue;
+}
+}
+#Kasparov{
+    border-radius: 50px;
+    margin: 35px;
+    background-color: brown;
+    color: black;
+    img{width: 150px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        margin: 30px;
+    }
+    h1{text-align: center;
+    color:white;}
+}
+#Karpov{
+    border-radius: 50px;
+    margin: 35px;
+    background-color:greenyellow;
+    color: black;
+    img{width: 300px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        margin: 30px;
+    }
+    h1{text-align: center;
+    color:white;}
+}
+#Carlsen{
+    border-radius: 50px;
+    margin: 35px;
+    background-color: brown;
+    color: black;
+    img{width: 300px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        margin: 30px;
+    }
+    h1{text-align: center;
+    color:white;}
+}
+#Fischer{
+    border-radius: 50px;
+    margin: 35px;
+    background-color: rgb(72, 223, 59);
+    color: black;
+    img{width: 300px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        margin: 30px;
+    }
+    h1{text-align: center;
+    color:white;}
+}
+#Inicio{
+    border-radius: 50px;
+    margin: auto;
+    background-color: rgb(72, 223, 59);
+    color: black;
+    img{width: 150px;
+        height: auto;
+        margin: auto;
+        display:inline-flex;
+        margin: 50px;
+    }
+    h1{text-align: center;
+    color:white;}
+    p{
+        text-align: center;
+        font-size: medium;
+        color:black;
+    }
+}
