@@ -1,0 +1,236 @@
+#capablanca{
+    .container{
+        background-color: aqua;
+        main{
+            text-align: center;
+            p{
+               text-align: justify;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                font-weight: 200;
+                font-family: 'Courier New', Courier, monospace;
+            }
+                .imagen1{
+                    width: 100;
+                    align-items: flex-start;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                }
+                .imagen2{
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                .imagen3{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            h2 {
+                border-top: none;
+                background-color: #22609e;
+                padding: 1rem;
+            }
+        }
+    }
+}
+#karpov{
+    .container{
+        background-color: rgb(221, 72, 14);
+        main{
+            text-align: center;
+            p{
+               text-align: justify;
+               font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                font-weight: 200;
+                font-family: 'Courier New', Courier, monospace;
+            }
+                .imagen1{
+                    width: 100;
+                    align-items: flex-start;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                }
+                .imagen2{
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                .imagen3{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            h2 {
+                border-top: none;
+                background-color: #ec7b11a8;
+                padding: 1rem;
+            }
+        }
+    }
+}
+#kasparov{
+    .container{
+        background-color: rgb(14, 207, 221);
+        main{
+            text-align: center;
+            p{
+               text-align: justify;
+               font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                font-weight: 200;
+                font-family: 'Courier New', Courier, monospace;
+            }
+                .imagen1{
+                    width: 100;
+                    align-items: flex-start;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                }
+                .imagen2{
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                .imagen3{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            h2 {
+                border-top: none;
+                background-color: #119ceca8;
+                padding: 1rem;
+            }
+        }
+    }
+}
+#carlsen{
+    .container{
+        background-color: rgba(14, 45, 221, 0.411);
+        main{
+            text-align: center;
+            p{
+               text-align: justify;
+               font-family: 'Times New Roman', Times, serif;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                font-weight: 200;
+                font-family: 'Courier New', Courier, monospace;
+            }
+                .imagen1{
+                    width: 100;
+                    align-items: flex-start;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                }
+                .imagen2{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                .imagen3{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            h2 {
+                border-top: none;
+                background-color: #ec11eca8;
+                padding: 1rem;
+            }
+        }
+    }
+}
+#fischer{
+    .container{
+        background-color: rgba(58, 13, 70, 0.411);
+        main{
+            text-align: center;
+            p{
+               text-align: justify;
+               font-family: 'Times New Roman', Times, serif;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                font-weight: 200;
+                font-family: 'Courier New', Courier, monospace;
+            }
+                .imagen1{
+                    width: 100;
+                    align-items: flex-start;
+                  margin-top: 10px;
+                  margin-left: 10px;
+                  margin-bottom: 5px;
+                }
+                .imagen2{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+                .imagen3{
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-left: 10px;
+                    margin-bottom: 10px;
+                }
+            h2 {
+                border-top: none;
+                background-color: #1139eca8;
+                padding: 1rem;
+            }
+        }
+    }
+}
+#inicio{
+    .container{
+        background-color: rgba(14, 45, 221, 0.411);
+        main{
+            text-align: center;
+            p{
+                text-align: center;
+               font-family: 'Times New Roman', Times, serif;
+            }
+            img{
+                align-items: center;
+            }
+            .row{
+                font-size: large;
+            }
+            h1{
+                text-align: center;
+                font-weight: 200;
+                font-size: large;
+                font-family: 'Courier New', Courier, monospace;
+            }
+        }
+    }
+}
