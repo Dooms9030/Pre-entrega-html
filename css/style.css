@@ -1,0 +1,224 @@
+.imagenes, #fischer .container main .imagen3, #fischer .container main .imagen2, #fischer .container main .imagen1, #carlsen .container main .imagen3, #carlsen .container main .imagen2, #carlsen .container main .imagen1, #kasparov .container main .imagen3, #kasparov .container main .imagen2, #kasparov .container main .imagen1, #karpov .container main .imagen3, #karpov .container main .imagen2, #karpov .container main .imagen1, #capablanca .container main .imagen3, #capablanca .container main .imagen2, #capablanca .container main .imagen1 {
+  width: auto;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+  transition: transform 350ms;
+}
+
+.imagenes:hover, #fischer .container main .imagen3:hover, #fischer .container main .imagen2:hover, #fischer .container main .imagen1:hover, #carlsen .container main .imagen3:hover, #carlsen .container main .imagen2:hover, #carlsen .container main .imagen1:hover, #kasparov .container main .imagen3:hover, #kasparov .container main .imagen2:hover, #kasparov .container main .imagen1:hover, #karpov .container main .imagen3:hover, #karpov .container main .imagen2:hover, #karpov .container main .imagen1:hover, #capablanca .container main .imagen3:hover, #capablanca .container main .imagen2:hover, #capablanca .container main .imagen1:hover {
+  width: 100%;
+  height: 100%;
+  transition: 2s;
+  transform: translateY(50px);
+}
+
+#capablanca .container {
+  background-color: rgba(0, 255, 191, 0.644) 9e;
+}
+#capablanca .container main {
+  text-align: center;
+}
+#capablanca .container main .row {
+  font-size: medium;
+}
+#capablanca .container main .row p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#capablanca .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#capablanca .container main .imagen1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+#capablanca .container main .imagen2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#capablanca .container main .imagen3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#capablanca .container main h2 {
+  border-top: none;
+  background-color: #22609e;
+  padding: 1rem;
+}
+
+#karpov .container {
+  background-color: rgb(221, 72, 14);
+}
+#karpov .container main {
+  text-align: center;
+}
+#karpov .container main p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#karpov .container main .row {
+  font-size: large;
+}
+#karpov .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#karpov .container main .imagen1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+#karpov .container main .imagen2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#karpov .container main .imagen3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#karpov .container main h2 {
+  border-top: none;
+  background-color: rgb(128, 0, 107) 9e;
+  padding: 1rem;
+}
+
+#kasparov .container {
+  background-color: #22609e;
+}
+#kasparov .container main {
+  text-align: center;
+}
+#kasparov .container main p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#kasparov .container main .row {
+  font-size: large;
+}
+#kasparov .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#kasparov .container main .imagen1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+#kasparov .container main .imagen2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#kasparov .container main .imagen3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#kasparov .container main h2 {
+  border-top: none;
+  background-color: #22609e;
+  padding: 1rem;
+}
+
+#carlsen .container {
+  background-color: #22609e;
+}
+#carlsen .container main {
+  text-align: center;
+}
+#carlsen .container main p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#carlsen .container main .row {
+  font-size: large;
+}
+#carlsen .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#carlsen .container main .imagen1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+#carlsen .container main .imagen2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#carlsen .container main .imagen3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#carlsen .container main h2 {
+  border-top: none;
+  background-color: rgb(128, 0, 107) 9e;
+  padding: 1rem;
+}
+
+#fischer .container {
+  background-color: rgba(34, 96, 158, 0.1019607843);
+}
+#fischer .container main {
+  text-align: center;
+}
+#fischer .container main p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#fischer .container main .row {
+  font-size: large;
+}
+#fischer .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#fischer .container main .imagen1 {
+  grid-row: 1;
+  grid-column: 1;
+}
+#fischer .container main .imagen2 {
+  grid-row: 1;
+  grid-column: 2;
+}
+#fischer .container main .imagen3 {
+  grid-row: 1;
+  grid-column: 3;
+}
+#fischer .container main h2 {
+  border-top: none;
+  background-color: rgb(128, 0, 107) 9e;
+  padding: 1rem;
+}
+
+#inicio .container {
+  background-color: rgba(128, 128, 128, 0.705);
+}
+#inicio .container main {
+  text-align: center;
+}
+#inicio .container main p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#inicio .container main img {
+  align-items: center;
+}
+#inicio .container main .row {
+  font-size: large;
+}
+#inicio .container main h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+}
+
+/*# sourceMappingURL=style.css.map */
