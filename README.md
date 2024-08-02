@@ -1,0 +1,1 @@
+Les dejo mi proyecto final, donde hay 6 HTML basicos, donde el primero es de inicio para tener la seleccion de los jugadores que queremos visitar, luego estan los HTML de cada uno de los jugadores individuales, donde tienen un breve resumen de su vida e historia como jugadores, unas imagenes de ellos y al pie de pagina tienen un logro personal.
