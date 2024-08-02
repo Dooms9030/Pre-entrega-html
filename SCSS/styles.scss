@@ -1,246 +1,107 @@
-@import "mixin";
 @import "variables";
+@import "mixin";
 
- .imagenes {
-    width: auto;
-    margin: auto;
+.imagenes {
+    width: 100%;
+    height: auto;
     display: grid;
     gap: 20px;
-    transition: transform 350ms;
+    transition: transform 0.5s ease-in-out, width 0.5s ease-in-out;
 }
-.imagenes:hover{
+
+.imagenes img {
     width: 100%;
-    height: 100%;
-    transition: 2s;
-    transform: translateY(50px);
+    height: auto;
+    transition: transform 0.5s ease-in-out;
 }
 
-#capablanca{
-    .container{
-        background-color:$color1;
-        main{
-            text-align: center;
+.imagenes img:hover {
+    transform: scale(1.1);
+}
 
-            .row{
-                font-size: medium;
-                p{ 
+#capablanca, #karpov, #kasparov, #carlsen, #fischer, #inicio {
+    .container {
+        main {
+            text-align: center;
+            .row {
+                font-size: large;
+                p {
                     @include parrafos();
-                 }
+                }
             }
-            h1{
+            h1 {
                 font-weight: 200;
                 font-family: 'Courier New', Courier, monospace;
             }
-                
-                .imagen1{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 1;
-                }
-                
-                .imagen2{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 2;
-                }
-                
-                .imagen3{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 3;
-                }
+            .imagenes {
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: auto;
+                justify-items: center;
+            }
             h2 {
                 border-top: none;
-                background-color: $color2;
                 padding: 1rem;
             }
         }
     }
 }
-#karpov{
-    .container{
-        background-color: rgb(221, 72, 14);
-        main{
-            text-align: center;
-            p{
-               @include parrafos();
-            }
-            .row{
-                font-size: large;
-            }
-            h1{
-                font-weight: 200;
-                font-family: 'Courier New', Courier, monospace;
-            }
 
-            .imagen1{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 1;
-            }
-            
-            .imagen2{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 2;
-            }
-            
-            .imagen3{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 3;
-            }
-            h2 {
-                border-top: none;
-                background-color: $color3;
-                padding: 1rem;
-            }
-        }
+#capablanca .container {
+    background-color: $color1;
+    h2 {
+        background-color: $color2;
     }
 }
-#kasparov{
-    .container{
-        background-color: $color2;
-        main{
-            text-align: center;
-            p{
-               @include parrafos();
-            }
-            .row{
-                font-size: large;
-            }
-            h1{
-                font-weight: 200;
-                font-family: 'Courier New', Courier, monospace;
-            }
 
-            .imagen1{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 1;
-            }
-            
-            .imagen2{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 2;
-            }
-            
-            .imagen3{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 3;
-            }
-            h2 {
-                border-top: none;
-                background-color: $color2;
-                padding: 1rem;
-            }
-        }
+#karpov .container {
+    background-color: rgb(221, 72, 14);
+    h2 {
+        background-color: $color3;
     }
 }
-#carlsen{
-    .container{
+
+#kasparov .container {
+    background-color: $color3;
+    h2 {
         background-color: $color2;
-        main{
-            text-align: center;
-            p{
-               @include parrafos();
-            }
-            .row{
-                font-size: large;
-            }
-            h1{
-                font-weight: 200;
-                font-family: 'Courier New', Courier, monospace;
-            }
-        
-                .imagen1{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 1;
-                }
-                
-                .imagen2{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 2;
-                }
-                
-                .imagen3{
-                    @extend .imagenes;
-                    grid-row: 1;
-                    grid-column: 3;
-                }
-            h2 {
-                border-top: none;
-                background-color: $color3;
-                padding: 1rem;
-            }
-        }
     }
 }
-#fischer{
-    .container{
-        background-color:$color5;
-        main{
-            text-align: center;
-            p{
-               @include parrafos();
-            }
-            .row{
-                font-size: large;
-            }
-            h1{
-                font-weight: 200;
-                font-family: 'Courier New', Courier, monospace;
-            }
-            .imagen1{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 1;
-            }
-            
-            .imagen2{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 2;
-            }
-            
-            .imagen3{
-                @extend .imagenes;
-                grid-row: 1;
-                grid-column: 3;
-            }
-            h2 {
-                border-top: none;
-                background-color: $color3;
-                padding: 1rem;
-            }
-        }
+
+#carlsen .container {
+    background-color: $color2;
+    h2 {
+        background-color: $color3;
     }
 }
-#inicio{
-    .container{
-        background-color: $color4;
-        main{
-            text-align: center;
-            p{
-                text-align: center;
-               font-family: 'Times New Roman', Times, serif;
-            }
-            img{
-                align-items: center;
-            }
-            .row{
-                font-size: large;
-            }
-            h1{
-                text-align: center;
-                font-weight: 200;
-                font-size: large;
-                font-family: 'Courier New', Courier, monospace;
-            }
-        }
+
+#fischer .container {
+    background-color: $color5;
+    h2 {
+        background-color: $color3;
     }
 }
+
+#inicio .container {
+    background-color: $color4;
+    p {
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    img {
+        align-items: center;
+    }
+    h1 {
+        text-align: center;
+        font-weight: 200;
+        font-size: large;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+footer {
+    background-color: $color5; 
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+ }

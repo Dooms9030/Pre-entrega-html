@@ -1,0 +1,105 @@
+.imagenes {
+  width: 100%;
+  height: auto;
+  display: grid;
+  gap: 20px;
+  transition: transform 0.5s ease-in-out, width 0.5s ease-in-out;
+}
+
+.imagenes img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease-in-out;
+}
+
+.imagenes img:hover {
+  transform: scale(1.1);
+}
+
+#capablanca .container main, #karpov .container main, #kasparov .container main, #carlsen .container main, #fischer .container main, #inicio .container main {
+  text-align: center;
+}
+#capablanca .container main .row, #karpov .container main .row, #kasparov .container main .row, #carlsen .container main .row, #fischer .container main .row, #inicio .container main .row {
+  font-size: large;
+}
+#capablanca .container main .row p, #karpov .container main .row p, #kasparov .container main .row p, #carlsen .container main .row p, #fischer .container main .row p, #inicio .container main .row p {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#capablanca .container main h1, #karpov .container main h1, #kasparov .container main h1, #carlsen .container main h1, #fischer .container main h1, #inicio .container main h1 {
+  font-weight: 200;
+  font-family: "Courier New", Courier, monospace;
+}
+#capablanca .container main .imagenes, #karpov .container main .imagenes, #kasparov .container main .imagenes, #carlsen .container main .imagenes, #fischer .container main .imagenes, #inicio .container main .imagenes {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  justify-items: center;
+}
+#capablanca .container main h2, #karpov .container main h2, #kasparov .container main h2, #carlsen .container main h2, #fischer .container main h2, #inicio .container main h2 {
+  border-top: none;
+  padding: 1rem;
+}
+
+#capablanca .container {
+  background-color: rgba(0, 255, 191, 0.644);
+}
+#capablanca .container h2 {
+  background-color: #22609e;
+}
+
+#karpov .container {
+  background-color: rgb(221, 72, 14);
+}
+#karpov .container h2 {
+  background-color: rgb(128, 0, 107);
+}
+
+#kasparov .container {
+  background-color: rgb(128, 0, 107);
+}
+#kasparov .container h2 {
+  background-color: #22609e;
+}
+
+#carlsen .container {
+  background-color: #22609e;
+}
+#carlsen .container h2 {
+  background-color: rgb(128, 0, 107);
+}
+
+#fischer .container {
+  background-color: rgba(34, 96, 158, 0.1019607843);
+}
+#fischer .container h2 {
+  background-color: rgb(128, 0, 107);
+}
+
+#inicio .container {
+  background-color: rgba(128, 128, 128, 0.705);
+}
+#inicio .container p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+#inicio .container img {
+  align-items: center;
+}
+#inicio .container h1 {
+  text-align: center;
+  font-weight: 200;
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+}
+
+footer {
+  background-color: rgba(34, 96, 158, 0.1019607843);
+  padding: 1rem;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+}
+
+/*# sourceMappingURL=styles.css.map */
